@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+
+# uv / venv
+.venv/
+venv/
+env/
+
+# Playwright
+playwright-browsers/
+
+# 测试与缓存
+_test_handshake.py
+.trae/
+
+# 下载产物（不应入库）
+aging*/
+*.pdf
+download_report.txt
+error_*.png
+pubmed_*.html
+pubmed_*.png
+publisher_*.png
+
+# PyInstaller
+*.spec
+
+# OS
+.DS_Store
+Thumbs.db
